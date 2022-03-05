@@ -5,4 +5,28 @@ public class Message {
     Message myObj = new Message();
     System.out.println(myObj.x);
   }
+  /**
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string} message
+  * @param {string} title
+  * @param {string}
+  */
+  public static void function(){
+    
+  }
 }
