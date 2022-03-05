@@ -27,6 +27,7 @@ public class Message {
   * @param {string}
   */
   public static void function(){
-    
+    Message myObj = new Message();
+    System.out.println(myObj.x);
   }
 }
