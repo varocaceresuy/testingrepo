@@ -26,27 +26,6 @@ What in the heck is a zcommand?
 
 */
 
-export function send(opts) {
-    const command = opts.command;
-    const on_success = opts.on_success;
-    const data = {
-        command,
-    };
-
-    channel.post({
-        url: "/json/zcommand",
-        data,
-        success(data) {
-            if (on_success) {
-                on_success(data);
-            }
-        },
-        error() {
-            tell_user("server did not respond");
-        },
-    });
-}
-
 export function tell_user(msg) {
     // This is a bit hacky, but we don't have a super easy API now
     // for just telling users stuff.
