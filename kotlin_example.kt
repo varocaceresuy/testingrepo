@@ -15,4 +15,3 @@ class ExampleClass : ParentClass {
 
     fun empty_function()
 }
-
