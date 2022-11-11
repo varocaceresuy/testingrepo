@@ -4,4 +4,12 @@ public class Message {
     Message myObj = new Message();
     System.out.println(myObj.x);
   }
+  /**
+    Description
+    more description
+    @return return int
+  */
+  public static int method() {
+    return 1
+  }
 }
