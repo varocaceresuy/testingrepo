@@ -10,6 +10,6 @@ public class Message {
     @return return int
   */
   public static int method() {
-    return 4
+    return 5
   }
 }
